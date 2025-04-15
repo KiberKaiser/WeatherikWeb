@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/WeatherikApp/index.f02eqac8h3.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f02eqac8h3"},{"Name":"integrity","Value":"sha256-r4NC7h3aAkMTug/cO7XgV5Vpdp8qMeUkYS\u002B9MbSTskg="},{"Name":"label","Value":"_content/WeatherikApp/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3242"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022r4NC7h3aAkMTug/cO7XgV5Vpdp8qMeUkYS\u002B9MbSTskg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 18:40:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WeatherikApp/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-r4NC7h3aAkMTug/cO7XgV5Vpdp8qMeUkYS\u002B9MbSTskg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3242"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022r4NC7h3aAkMTug/cO7XgV5Vpdp8qMeUkYS\u002B9MbSTskg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 18:40:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

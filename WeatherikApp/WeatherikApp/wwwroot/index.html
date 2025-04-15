@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Прогноз погоди</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+        .container {
+            margin-top: 50px;
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+        input, button {
+            margin: 0.5rem;
+            padding: 0.5rem;
+            font-size: 1rem;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 0.5rem 0;
+            background: #eaf0f6;
+            padding: 0.5rem;
+            border-radius: 8px;
+            text-align: left;
+        }
+        strong {
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Прогноз погоди</h1>
+    <input id="cityInput" placeholder="Введіть назву міста">
+    <button onclick="searchCity()">Пошук</button>
+    <ul id="locations"></ul>
+    <h2 id="forecastTitle"></h2>
+    <ul id="forecast"></ul>
+</div>
+
+<script>
+    async function searchCity() {
+        const query = document.getElementById("cityInput").value;
+        const res = await fetch(`/api/search?query=${encodeURIComponent(query)}`);
+        const data = await res.json();
+        const list = document.getElementById("locations");
+        list.innerHTML = "";
+        data.forEach(loc => {
+            const li = document.createElement("li");
+            const region = loc.admin1 ? `, ${loc.admin1}` : "";
+            li.innerHTML = `<a href="#" onclick="getForecast(${loc.latitude}, ${loc.longitude}, '${loc.name}${region}')">${loc.name}${region}, ${loc.country}</a>`;
+            list.appendChild(li);
+        });
+    }
+
+    async function getForecast(lat, lon, name) {
+        const res = await fetch(`/api/forecast?lat=${lat}&lon=${lon}`);
+        const data = await res.json();
+        document.getElementById("forecastTitle").innerText = `Прогноз для ${name}`;
+        const list = document.getElementById("forecast");
+        list.innerHTML = "";
+
+        data.forEach(day => {
+            const li = document.createElement("li");
+            li.innerHTML = `
+                <strong>${day.date}</strong>
+                🌅 Ранок: ${formatPeriod(day.morning)}<br>
+                ☀️ День: ${formatPeriod(day.day)}<br>
+                🌇 Вечір: ${formatPeriod(day.evening)}<br>
+                🌙 Ніч: ${formatPeriod(day.night)}
+            `;
+            list.appendChild(li);
+        });
+    }
+
+    function formatPeriod(period) {
+        return period ? `${period.temperature}°C, ${period.weather}` : "Немає даних";
+    }
+</script>
+</body>
+</html>

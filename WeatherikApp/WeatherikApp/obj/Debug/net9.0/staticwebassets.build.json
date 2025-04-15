@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "UK1VwcBuFnmly9EZTJbb7qMcviAazAWcxxdnfEjE5KU=",
+  "Source": "WeatherikApp",
+  "BasePath": "_content/WeatherikApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WeatherikApp\\wwwroot",
+      "Source": "WeatherikApp",
+      "ContentRoot": "C:\\Users\\1onei\\Desktop\\generallabs\\weblabs\\WeatherikApp\\WeatherikApp\\wwwroot\\",
+      "BasePath": "_content/WeatherikApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\1onei\\Desktop\\generallabs\\weblabs\\WeatherikApp\\WeatherikApp\\obj\\Debug\\net9.0\\compressed\\0wuan5feic-f02eqac8h3.gz",
+      "SourceId": "WeatherikApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1onei\\Desktop\\generallabs\\weblabs\\WeatherikApp\\WeatherikApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WeatherikApp",
+      "RelativePath": "index#[.{fingerprint=f02eqac8h3}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\1onei\\Desktop\\generallabs\\weblabs\\WeatherikApp\\WeatherikApp\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5954c1vfwh",
+      "Integrity": "mdPtbJfKFJoCNnPpRw937d1cqbYHuQAd8b0Licsvk0U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\1onei\\Desktop\\generallabs\\weblabs\\WeatherikApp\\WeatherikApp\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\1onei\\Desktop\\generallabs\\weblabs\\WeatherikApp\\WeatherikApp\\wwwroot\\index.html",
+      "SourceId": "WeatherikApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1onei\\Desktop\\generallabs\\weblabs\\WeatherikApp\\WeatherikApp\\wwwroot\\",
+      "BasePath": "_content/WeatherikApp",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f02eqac8h3",
+      "Integrity": "r4NC7h3aAkMTug/cO7XgV5Vpdp8qMeUkYS+9MbSTskg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.f02eqac8h3.html",
+      "AssetFile": "C:\\Users\\1onei\\Desktop\\generallabs\\weblabs\\WeatherikApp\\WeatherikApp\\obj\\Debug\\net9.0\\compressed\\0wuan5feic-f02eqac8h3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000796812749"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1254"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mdPtbJfKFJoCNnPpRw937d1cqbYHuQAd8b0Licsvk0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 18:40:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"r4NC7h3aAkMTug/cO7XgV5Vpdp8qMeUkYS+9MbSTskg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f02eqac8h3"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r4NC7h3aAkMTug/cO7XgV5Vpdp8qMeUkYS+9MbSTskg="
+        }
+      ]
+    },
+    {
+      "Route": "index.f02eqac8h3.html",
+      "AssetFile": "C:\\Users\\1onei\\Desktop\\generallabs\\weblabs\\WeatherikApp\\WeatherikApp\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r4NC7h3aAkMTug/cO7XgV5Vpdp8qMeUkYS+9MbSTskg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 18:40:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f02eqac8h3"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r4NC7h3aAkMTug/cO7XgV5Vpdp8qMeUkYS+9MbSTskg="
+        }
+      ]
+    },
+    {
+      "Route": "index.f02eqac8h3.html.gz",
+      "AssetFile": "C:\\Users\\1onei\\Desktop\\generallabs\\weblabs\\WeatherikApp\\WeatherikApp\\obj\\Debug\\net9.0\\compressed\\0wuan5feic-f02eqac8h3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mdPtbJfKFJoCNnPpRw937d1cqbYHuQAd8b0Licsvk0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 18:40:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f02eqac8h3"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mdPtbJfKFJoCNnPpRw937d1cqbYHuQAd8b0Licsvk0U="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\1onei\\Desktop\\generallabs\\weblabs\\WeatherikApp\\WeatherikApp\\obj\\Debug\\net9.0\\compressed\\0wuan5feic-f02eqac8h3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000796812749"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1254"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mdPtbJfKFJoCNnPpRw937d1cqbYHuQAd8b0Licsvk0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 18:40:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"r4NC7h3aAkMTug/cO7XgV5Vpdp8qMeUkYS+9MbSTskg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r4NC7h3aAkMTug/cO7XgV5Vpdp8qMeUkYS+9MbSTskg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\1onei\\Desktop\\generallabs\\weblabs\\WeatherikApp\\WeatherikApp\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r4NC7h3aAkMTug/cO7XgV5Vpdp8qMeUkYS+9MbSTskg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 18:40:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r4NC7h3aAkMTug/cO7XgV5Vpdp8qMeUkYS+9MbSTskg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\1onei\\Desktop\\generallabs\\weblabs\\WeatherikApp\\WeatherikApp\\obj\\Debug\\net9.0\\compressed\\0wuan5feic-f02eqac8h3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mdPtbJfKFJoCNnPpRw937d1cqbYHuQAd8b0Licsvk0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 18:40:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mdPtbJfKFJoCNnPpRw937d1cqbYHuQAd8b0Licsvk0U="
+        }
+      ]
+    }
+  ]
+}
